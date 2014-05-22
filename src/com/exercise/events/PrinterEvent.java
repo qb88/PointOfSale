@@ -19,5 +19,4 @@ public class PrinterEvent implements Event {
 	public String getTotal() {
 		return total;
 	}
-
 }
