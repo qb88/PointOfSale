@@ -5,7 +5,6 @@ import com.exercise.events.PrinterEvent;
 public class Printer {
 
 	void handle(PrinterEvent data) {
-		System.out.println(data.getData());
-		System.out.println(data.getTotal());
+		System.out.print(data.getData() + data.getTotal() + "\n");
 	}
 }

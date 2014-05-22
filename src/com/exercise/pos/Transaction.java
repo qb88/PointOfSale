@@ -4,12 +4,12 @@ import java.util.ArrayList;
 
 import static com.exercise.pos.Data.PRODUCTS;
 
-class Transaction {
+public class Transaction {
 
 	private ArrayList<Product> shopping;
 	private int prices;
 	
-	Transaction() {
+	public Transaction() {
 		shopping = new ArrayList<Product>();
 	}
 
